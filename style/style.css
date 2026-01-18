@@ -9,7 +9,8 @@
   font-optical-sizing: auto;
 }
 
-.btn-1{
+.btn{
+    border-radius: 10000px;
     background: linear-gradient( 45deg, #F7E93F 0%, #FB09B4 51% , #9100F8 100%) ;
 }
 
