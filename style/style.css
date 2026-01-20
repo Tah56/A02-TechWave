@@ -96,7 +96,7 @@
     
     .why-section {
         display: grid;
-        grid-template-columns: repeat(1,340px);
+        grid-template-columns: repeat(1,300px);
         grid-template-rows: repeat(4, 1fr);
         gap: 10px;
     }
