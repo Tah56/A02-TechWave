@@ -26,4 +26,121 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+.banner-1{
+    background-image: url("../assets/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width:576px) {
+    
+    .hide{
+        display: none;
+    }
+    .navbar{
+         
+    }
+    .hamburger{
+        width: 50px;
+        height: 50px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .p{
+        padding: 40px 20px;
+    }
+    .w{
+       width: 440px; 
+       text-align: center;
+      
+    }
+    
+    .w h2{
+        font-size: 2.5rem;
+        margin-bottom: 24px;
+    }
+    
+    .r{
+        width: 200px;
+        height: 200px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .full{
+        width: 80px;
+        height: 80px;
+
+    }
+    .about{
+        padding-right: 20px;
+        padding-left: 20px;
+        text-align: center;
+    }
+    .about h2{
+        font-size:2rem;
+        text-align: center;
+    }
+    
+    .about-num{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        gap: 40px;
+    }
+    .num-box{
+        font-size: 2rem;
+        width: 180px;
+    }
+    
+    .why-section {
+        display: grid;
+        grid-template-columns: repeat(1,440px);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 10px;
+    }
+    
+    .section-font{
+        font-size: 2rem;
+    }
+    .section-width{
+        width: 400px;
+        padding: 24px;
+    }
+    .span{
+        grid-column: span 1;
+    
+    }
+    .span-2{
+        grid-row: span 1;
+    }
+    
+    .f-flex{
+        flex-direction: column;
+        
+    }
+    .t-center{
+        text-align: center;
+    }
+    .j-center{
+        justify-content: center;
+        align-items: center;
+    }
+    .w-host{
+        width: 400px;
+        padding: 24px;
+    }
+    .h-flex{
+        display: flex;
+    }
+    .m{
+        margin: 0 auto;
+    }
+    .gap{
+        gap: 16px;
+        justify-content: center;
+    }
+    
+}
 }
