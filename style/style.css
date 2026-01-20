@@ -52,7 +52,7 @@
         padding: 40px 20px;
     }
     .w{
-       width: 440px; 
+       width: 340px; 
        text-align: center;
       
     }
@@ -96,7 +96,7 @@
     
     .why-section {
         display: grid;
-        grid-template-columns: repeat(1,440px);
+        grid-template-columns: repeat(1,340px);
         grid-template-rows: repeat(4, 1fr);
         gap: 10px;
     }
@@ -105,7 +105,7 @@
         font-size: 2rem;
     }
     .section-width{
-        width: 400px;
+        width: 300px;
         padding: 24px;
     }
     .span{
@@ -128,7 +128,7 @@
         align-items: center;
     }
     .w-host{
-        width: 400px;
+        width: 300px;
         padding: 24px;
     }
     .h-flex{
